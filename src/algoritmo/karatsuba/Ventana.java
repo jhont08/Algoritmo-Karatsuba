@@ -2,7 +2,6 @@ package algoritmo.karatsuba;
 
 import static algoritmo.karatsuba.AlgoritmoKaratsuba.karatsuba;
 import java.math.BigInteger;
-import java.util.regex.Pattern;
 import javax.swing.JOptionPane;
 
 /*
@@ -247,6 +246,7 @@ public class Ventana extends javax.swing.JFrame {
         
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
             public void run() {
                 new Ventana().setVisible(true);
             }
